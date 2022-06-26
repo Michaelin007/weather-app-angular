@@ -10,7 +10,7 @@ export class ApixuService {
 
   getWeather(location){
     return this.http.get(
-        'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/' + location + '%2CUK?unitGroup=metric&key=R4KM5FQJXHNSMJG2NYYTQW3XJ'
+        'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/' + location + '%2CUK?unitGroup=metric&key=YourAPIKey'
     );
 }
 }
